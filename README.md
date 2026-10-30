@@ -24,6 +24,6 @@ optional arguments:
 ```
 
 ## Testing Leaking ##
-The `wraythmon.ps1` powershell script monitors Wrayth's resource usage. It displays a summary and writes the results to wrayth-counters.csv
+The `\testing\wraythmon.ps1` powershell script monitors Wrayth's resource usage. It displays a summary and writes the results to wrayth-counters.csv
 
-`stress_test.lic` is a Lich script that attempts to cause both types of leaks as rapidly as possible. (It can cause a leaky pen crash in ~30 minutes and a progressBar crash in ~90 minutes.)
+`\testing\stress_test.lic` is a Lich script that attempts to cause both types of leaks as rapidly as possible. (It can cause a leaky pen crash in ~30 minutes and a progressBar crash in ~90 minutes.)
