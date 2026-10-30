@@ -1,0 +1,15 @@
+sleep_delay = 0.05
+
+loop do
+  _respond("<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='96' text='mana 96%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>")
+  sleep(sleep_delay)
+  
+  _respond("<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='0' text='mana 0%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>")
+  sleep(sleep_delay)
+  
+  _respond("<spell exist='spell'>Test Spell</spell>")
+  sleep(sleep_delay)
+  
+  _respond("<spell>None</spell>")
+  sleep(sleep_delay)
+end
